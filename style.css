@@ -1,12 +1,19 @@
-/*// reset standard spacing
+/* reset standard spacing */
 * {
     padding: 0;
     margin: 0;
-} */
+}
 
 body {
-    background: #eeefee;
+    background-color: #ffffef;
     color: #000000;
+}
+
+p|div {
+    padding-left: 4em;
+    padding-right: 6em;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 .floatright {
@@ -14,7 +21,7 @@ body {
 }
 
 .floatright a img {
-    border: 0;
+    border-width: 0;
 }
 
 .ref {}
