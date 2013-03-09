@@ -19,4 +19,10 @@ body {
 
 div.ref {
     font-style: italic;
+    max-width: 65em;
+    text-align: center;
+}
+
+div.ref a {
+    font-weight: bold;
 }
