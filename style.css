@@ -17,4 +17,6 @@ body {
     border: 0;
 }
 
-.ref {}
+div.ref {
+    font-style: italic;
+}
