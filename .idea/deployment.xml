@@ -5,7 +5,7 @@
       <paths name="sourceforge-openflux">
         <serverdata>
           <mappings>
-            <mapping deploy="$PROJECT_DIR$/../../../../project-web/openflux/htdocs/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
