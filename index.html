@@ -1,110 +1,51 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <title>OpenFLUX: Homepage</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>OpenFLUX: Homepage</title>
 </head>
 
 <body>
-  <h1>OpenFLUX</h1>
+<h1>OpenFLUX</h1>
 
-  <h2>About the Software</h2>
+<nav>
+    <li>About</li>
+    <li class="button" s="button"><a href="installation.html">Installation</a></li>
+    <li class="button"><a href="support.html">Support</a></li>
+    <li class="button"><a href="development.html">Development</a></li>
+</nav>
 
-  <p>OpenFLUX is a MATLAB-based modelling software for
-  <sup>13</sup>C metabolic flux analysis (MFA). Modern techniques
-  like <a href=
-  "http://www.ncbi.nlm.nih.gov/pubmed/17088092">EMUs</a> are
-  implemented for efficient computing. A typical MFA with OpenFLUX
-  consists of model set up (in a spreadsheed application like
-  OpenOfficee.org Calc or MS Office Excel), a model generation
-  using the Java GUI distributed with OpenFLUX, and the analysis
-  itself in Matlab. A series of <a href=
-  "http://sourceforge.net/project/screenshots.php?group_id=261446">screenshots</a>
-  depicts this procedure.</p>
+<h2>About the Software</h2>
 
-  <p>OpenFLUX is released under the <a href=
-  "http://www.gnu.org/copyleft/gpl.html">GNU GPL licensing
-  condition</a>. However, we would also like to keep track of users
-  for the purpose of gathering feedback (for further improvement of
-  the software). Please kindly download and fill in the
-  registration file (see "Additional files"), and then email it
-  back to us.</p>
+<p>OpenFLUX is a MATLAB-based modelling software for
+    <sup>13</sup>C metabolic flux analysis (MFA). Modern techniques
+    like <a href=
+                    "http://www.ncbi.nlm.nih.gov/pubmed/17088092">EMUs</a> are
+    implemented for efficient computing. A typical MFA with OpenFLUX
+    consists of model set up (in a spreadsheed application like
+    OpenOfficee.org Calc or MS Office Excel), a model generation
+    using the Java GUI distributed with OpenFLUX, and the analysis
+    itself in Matlab. A series of <a href=
+                                             "http://sourceforge.net/project/screenshots.php?group_id=261446">screenshots</a>
+    depicts this procedure.</p>
 
-  <h2>Requirements and Installation</h2>
+<p>OpenFLUX is released under the <a href=
+                                             "http://www.gnu.org/copyleft/gpl.html">GNU GPL licensing
+    condition</a>. However, we would also like to keep track of users
+    for the purpose of gathering feedback (for further improvement of
+    the software). Please kindly download and fill in the
+    registration file (see "Additional files"), and then email it
+    back to us.</p>
 
-  <p>For running this software you need an installation of <a href=
-  "http://java.com/">Java&trade;</a> and a recent version of
-  <a href="http://www.mathworks.com/products/matlab/">Matlab®</a>
-  including the <a href=
-      "http://www.mathworks.com/products/optimization/">Optimization</a>
-  and <a href="http://www.mathworks.com/products/statistics/">Statistics</a>
-  Toolbox&trade;.</p>
 
-  <p>To download, please direct your browser to the <a href=
-  "https://sourceforge.net/project/showfiles.php?group_id=261446">download
-  section</a>. Please also tell us about your use of OpenFLUX.</p>
 
-  <p>The Java part that builds the model from the spreadsheet is
-  started by double clicking the jar-file.</p>
-
-  <p>In Matlab you add the path to the directory with the m-files
-  to the Matlab path (e.g. with <code>pathtool</code>). The MFA is
-  started by <code>start13OF</code>.</p>
-
-  <p>For more information see the user manual.</p>
-
-  <h2>Documentation and References</h2>
-
-  <p>OpenFLUX comes with a comprehensive user manaual. Moreover you
-  may ask for help on the
-  <a href="https://groups.google.com/d/forum/13cmfa-openflux">forum</a>
-  or write a <a href="mailto:openflux.help@gmail.com">mail</a>.</p>
-
-  <p>When you use OpenFLUX please cite</p>
-
-  <div class="ref">
-    Queck, Wittmann, Nielsen, Krömer: <a href=
-    "http://www.microbialcellfactories.com/content/8/1/25">OpenFLUX:
-    efficient modelling software for 13C-based metabolic flux
-    analysis</a>, Microbial Cell Factories 2009, 8:25
-  </div>
-
-  <p>A <a href=
-    "http://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed_citedin&amp;from_uid=19409084">
-      list of citations</a> is available.
-  </p>
-
-  <h2>Resources and Links</h2>
-
-  <p>More information is availible at <a href=
-  "http://web.aibn.uq.edu.au/cssb/Resources.html">Systems &amp;
-  Synthetic Biology at the University of Queensland</a>.</p>
-
-  <p>Other software for MFA include</p>
-
-  <ul>
-    <li><a href=
-    "http://www.13cflux.net/">13CFlux</a>
-    and</li>
-
-    <li><a href="http://www.imsb.ethz.ch/research/zamboni/resources/fiatflux.html">
-    FiatFlux</a></li>
-  </ul>
-
-  <h2>Development</h2>
-
-  <p>OpenFLUX is kindly hosted by <a href=
-  "http://sourceforge.net/">Sourceforge®</a>. A <a href=
-  "http://sourceforge.net/projects/openflux">project summary</a>
-  and the code repository is availible online.</p>
-
-  <div class="floatright">
+<footer>
     <a href="http://sourceforge.net/projects/openflux"><img src=
-    "http://sflogo.sourceforge.net/sflogo.php?group_id=261446&amp;type=12"
-    width="120" height="30" alt=
-    "Get OpenFLUX at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
-  </div>
+                                                                    "http://sflogo.sourceforge.net/sflogo.php?group_id=261446&amp;type=12"
+                                                            width="120" height="30" alt=
+            "Get OpenFLUX at SourceForge.net. Fast, secure and Free Open Source software downloads"/></a>
+</footer>
 </body>
 </html>
